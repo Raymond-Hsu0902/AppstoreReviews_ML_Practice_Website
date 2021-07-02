@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用戶評論預測</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+
+<body class="bg">
+
+    <div class="container">
+        <div class="title">用戶評論預測</div>
+        <div class="input">
+            <label>用戶評論</label>
+            <input class="text" type="text" id="reviews" placeholder="請輸入用戶評論">
+            <input class="save" type="button" value="➜" onclick="submit()">
+        </div>
+        <div class="box">
+            <p class="predict-title">預測結果:</p>
+            <span id="resultText"></span>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
